@@ -1,0 +1,14 @@
+body {
+    background-image: linear-gradient(-75deg, red, yellow, blue);
+    /* background-image: linear-gradient(-25deg, red, yellow); */
+    /* background-image: linear-gradient(to top left, red, yellow); */
+    /* background-image: repeating-linear-gradient(0deg, red 15%, blue 30%); */
+    background-repeat: no-repeat;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    padding: 25px;
+}
