@@ -1,0 +1,13 @@
+body {
+    background-color: burlywood;
+}
+
+.fondo {
+    background-color: chocolate;
+    background-image: url(http://placekitten.com/200/300);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
