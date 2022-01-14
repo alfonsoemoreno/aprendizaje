@@ -1,9 +1,9 @@
 # Learning
-My repository with courses’s files
+My repository with courses files
 
 ## Courses
 ###  Aprende Javascript ES9, HTML, CSS3 y NodeJS desde cero
 *Folders:* css, html.
 
 ### Vim, aumenta tu velocidad de desarrollo
-*Folders:" vim.
+*Folders:* vim.
