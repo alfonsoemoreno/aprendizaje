@@ -79,4 +79,52 @@ const resultadoAnd = true && false
 // console.log(resultadoAnd)
 
 const resultadoNot = !true
-console.log(resultadoNot);
+// console.log(resultadoNot);
+
+// Controles de flujo
+// Control de flujo: if
+const edad = 4
+if (edad > 5 && edad < 18) {
+    // console.log('El niño puede jugar')
+} else {
+    // console.log('El niño no cumple la edad permitida')
+}
+
+// Control de flujo: while
+let x = 0
+while (x < 5) {
+    // console.log(x)
+    x++
+}
+// console.log('Terminando el loop')
+
+// Control de flujo: switch
+let y = 3;
+switch (y){
+    case 1: {
+        // console.log('Yo soy el caso 1');
+        break;
+    }
+    case 2: {
+        // console.log('Yo soy el caso 2');
+        break;
+    }
+    case 3:
+        // console.log('Soy el caso 3');
+        break;
+    default:
+        // console.log('Ninguna de las anteiores');
+        break;
+}
+
+// Control de flujo: for
+for (let i = 0; i < 10; i++) {
+    // console.log(i);
+}
+
+const numeros = [1, 2, 3, 4, 5]
+// console.log(numeros[2]);
+
+for (let i = 0; i < numeros.length; i++) {
+    console.log(numeros[i]);
+}
