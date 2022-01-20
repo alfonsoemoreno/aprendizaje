@@ -126,5 +126,55 @@ const numeros = [1, 2, 3, 4, 5]
 // console.log(numeros[2]);
 
 for (let i = 0; i < numeros.length; i++) {
-    console.log(numeros[i]);
+    // console.log(numeros[i]);
 }
+
+function iterar(arg1) {
+    for (let i = 0; i < arg1.length; i++) {
+        // console.log(arg1[i]);
+    }
+}
+
+const losNumeros = [1, 2, 3, 4, 5]
+const losNombres = ['John', 'Paul', 'George', 'Ringo']
+
+iterar(losNumeros)
+iterar(losNombres)
+
+// return
+function sumarDosNumeros(a, b) {
+    return a + b;
+}
+
+const resultadoDeLaFuncion = sumarDosNumeros(2, 3);
+// console.log('Resultado', resultadoDeLaFuncion);
+
+
+// Callback
+function sumarConCB (a, b, cb) {
+    const firstResult = a + b;
+    cb(firstResult)
+}
+
+function imprimeResultado(resultadoAImprimir) {
+    // console.log('El resultado es', resultadoAImprimir);
+}
+
+sumarConCB(3, 7, imprimeResultado);
+
+// Fat arrow functions
+const miFatArrowFunction = (a, b) => a + b;
+const resultFAFunction = miFatArrowFunction(3, 5);
+// console.log('El resultado de la FAt Arrow Function es:', resultFAFunction);
+
+const otraFAF = (a, b) => {
+    return a + b;
+}
+
+const r = otraFAF(1, 2)
+console.log(r)
+
+// Funciones anonimas
+sumarConCB(2, 3, function(r2) {
+    console.log('Soy una función anónima que imprimo el resultado:', r2)
+})
