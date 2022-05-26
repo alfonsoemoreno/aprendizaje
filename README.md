@@ -1,9 +1,10 @@
-# Learning
-My repository with courses files
+# Aprendizaje
+Ejercicios de cursos en plataformas online
 
-## Courses
-###  Aprende Javascript ES9, HTML, CSS3 y NodeJS desde cero
-*Folders:* css, html.
+## Cursos
+- Aprende Javascript ES9, HTML, CSS3 y NodeJS desde cero
+- React - Guía definitiva: hooks router redux next +Proyectos
+- Vim, aumenta tu velocidad de desarrollo
 
-### Vim, aumenta tu velocidad de desarrollo
-*Folders:* vim.
+
+
